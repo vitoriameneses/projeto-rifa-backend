@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 
-const { generateToken } = require('./authService');
+const { generateToken } = require('../services/authService');
 
 const User = require('../services/usuarioService');
 const Role = require('../services/papelService');
